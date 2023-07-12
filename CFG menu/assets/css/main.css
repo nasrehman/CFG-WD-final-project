@@ -13,9 +13,10 @@ header[role="banner"] {
 	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
 	-webkit-overflow-scrolling: touch;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sup, sub, tt, var, b, u, i, center, ul, ol, li, dl, dt, dd, table, tr, th, td, thead, tbody, tfoot, caption, form, fieldset, legend, input, textarea, select, label, applet, object, iframe, audio, video, canvas, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
 	font-size: 100%;
-	font-family: inherit;
+	font-family: "Poppins", sans-serif;
 	font-weight: inherit;
 	font-style: inherit;
 	line-height: inherit;
@@ -25,7 +26,9 @@ html, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, addres
 	padding: 0;
 	margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html {
+	
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -34,7 +37,7 @@ html {
 	text-size-adjust: 100%;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Poppins", sans-serif;
 	line-height: 1;
 	color: #000;
 	background-color: #fff;
@@ -127,7 +130,7 @@ input, textarea {
 button, input, select, textarea {
 	vertical-align: baseline;
 *vertical-align: middle;
-	-webkit-border-radius: 0;
+	-webkit-border-radius: 20;
 }
 button, input {
 	line-height: normal;
@@ -185,12 +188,12 @@ display: none;
 /********** End RESET **********/
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html {
 	font-size: 100%;
 }
 body {
-	font-family: 'Noticia Text', serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	background-color: #f7efeb;
@@ -209,14 +212,16 @@ a {
 a, a:hover {
 	text-decoration: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #nav {
 	width: 60em; /* 1000 */
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	position: absolute;
 	top: 30%;
 	left: 50%;
 	margin-left: -30em; /* 30 480 */
+	border-radius: 20px;
 }
 #nav > a {
 	display: none;
@@ -229,7 +234,7 @@ a, a:hover {
 	display: block;
 }
 #nav li a:active {
-	background-color: #c00 !important;
+	background-color: rgb(255, 131, 97)!important;
 }
 #nav span:after {
 	width: 0;
@@ -242,6 +247,7 @@ a, a:hover {
 	display: inline-block;
 	position: relative;
 	right: -0.313em; /* 5 */
+	border-radius: 20px;
 }
 /* first level */
 
@@ -269,7 +275,7 @@ a, a:hover {
 /* second level */
 
 				#nav li ul {
-	background-color: #cc470d;
+	background-color:  rgb(255, 131, 97);
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -284,11 +290,11 @@ a, a:hover {
 }
 #nav li ul a {
 	font-size: 1.25em; /* 20 */
-	border-top: 1px solid #e15a1f;
+	border-top: 1px solid  rgb(255, 131, 97);
 	padding: 0.75em; /* 15 (20) */
 }
 #nav li ul li a:hover, #nav li ul:not( :hover ) li.active a {
-	background-color: #e15a1f;
+	background-color: rgb(255, 131, 97);
 }
  @media only screen and ( max-width: 62.5em ) /* 1000 */ {
 #nav {
@@ -311,7 +317,7 @@ html {
 	height: 3.125em; /* 50 */
 	text-align: left;
 	text-indent: -9999px;
-	background-color: #e15a1f;
+	background-color:  rgb(255, 131, 97);
 	position: relative;
 }
 #nav > a:before, #nav > a:after {
@@ -351,7 +357,7 @@ html {
 }
 #nav > ul > li:not( :last-child ) > a {
 	border-right: none;
-	border-bottom: 1px solid #cc470d;
+	border-bottom: 1px solid  rgb(255, 131, 97);
 }
 /* second level */
 
@@ -362,33 +368,20 @@ html {
 }
 }
 
+
 .banner {
   position: absolute;
 	top: 40%;
 }
-
-.about-us {
-  color: brown;
-  text-align: center;
-  padding-top: 50px;
-  font-weight: normal;
-}
-
-.about-us-text {
-  text-align: center; 
-  font-weight: normal;
-  color: #747474;
-  font-size: 20px;
-}
-
 
 
 /* Start Global Rules */
 * {
 	box-sizing: border-box;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Poppins", sans-serif;
   }
   a {
 	text-decoration: none;
@@ -423,6 +416,7 @@ html {
 	}
   }
   /* End Global Rules */
+
   
   /* About us Page */
   .landing-page header {
@@ -492,8 +486,9 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 140px;
+	gap: 100px;
 	min-height: calc(100vh - 80px);
+	padding-top: 20px;
   }
   @media (max-width: 767px) {
 	.landing-page .content .container {
@@ -511,11 +506,13 @@ html {
   }
   .landing-page .content .info h1 {
 	color: #5d5d5d;
+	font-family: "Poppins", sans-serif;
 	font-size: 50px;
   }
   .landing-page .content .info p {
 	margin: 0;
 	line-height: 1.7;
+	font-family: "Poppins", sans-serif;
 	font-size: 18px;
 	color: #5d5d5d;
   }
@@ -525,6 +522,7 @@ html {
 	padding: 13px 30px;
 	margin-top: 30px;
 	cursor: pointer;
+	font-size: 18px;
 	color: #FFF;
 	background-color:rgb(247, 141, 113)
   }
@@ -532,4 +530,55 @@ html {
 	max-width: 100%;
   }
   /* About Us section */
+
+  footer {
+	text-align: center;
+	padding: 3px;
+	color: white;
+	overflow: auto;}
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	.footer-section {
+	  position: relative;
+	}
+	.footer-cta {
+	  border-bottom: 1px solid rgb(247, 141, 113)
+	};
+	
+	.single-cta i {
+	  color: #ff5e14;
+	  font-size: 30px;
+	  float: left;
+	  margin-top: 8px;
+	}
+	.cta-text {
+	  padding-left: 15px;
+	  display: inline-block;
+	}
+	.cta-text h4 {
+	  color: #5d5d5d;
+	  font-size: 20px;
+	  font-weight: 600;
+	  margin-bottom: 2px;
+	}
+	.cta-text span {
+	  color: #757575;
+	  font-size: 15px;
+	}
+	.footer-content {
+	  position: relative;
+	  z-index: 2;
+	}
+	
+	.footer-text p {
+	  margin-bottom: 14px;
+	  font-size: 14px;
+		  color: #7e7e7e;
+	  line-height: 28px;
+	}
+	
+	
   
